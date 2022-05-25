@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Frontend: The New Fullstack",
+    "published": true,
+    "content": "Have you ever wondered what it's like past the browser's horizon? The gap between the frontend and backend keeps getting thinner as the ecosystem of tools and libraries at our disposal keeps getting better – allowing frontend developers to explore the server's green pasture.\n\n In this talk, you’ll learn how you can level up from frontend to fullstack in no time without getting overwhelmed using tools such as Remix, Prisma, and PostgreSQL.",
+    "author": {
+      "name": "Alex"
+    }
+  }, 
+    {
+      "id": "2",
+      "title": "CityJs Athens Meetup!!",
+      "published": false,
+      "content": "The venue is a warm and welcoming place. An open theater that has successfully hosted many big concerts in recent years. The combination of the amphitheatrically set stands and the space for standing and sitting in front of the stage make it ideal to enjoy any concert as you wish (sitting or standing) in the best possible conditions. \n\nFull location for Google maps - https://goo.gl/maps/mVZN3MRG7vMpn2f98",
+      "author": {
+        "name": "Natalia & Aris"
+      }
+  }
+]
