@@ -8,9 +8,9 @@ import data from '../../../data.json'
 // Optional fields in body: content
 // Optional field in body: author: name
 export default async function handle(req: NextApiRequest, res: NextApiResponse) {
-  const { title, content } = req.body;
+  const { title, content, author } = req.body;
 
-  const post = { title, content }
+  const post = { title, content, author }
 
   res.json(post);
 

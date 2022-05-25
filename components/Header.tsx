@@ -38,11 +38,14 @@ const Header: React.FC = () => {
     </div>
   );
 
-  let right =  (<div className="left">
-  <Link href="/drafts">
-    <a data-active={isActive("/drafts")}>My drafts</a>
-  </Link>
-  <style jsx>{`
+  let right = (<div className="right">
+    <Link href="/drafts">
+      <a data-active={isActive("/drafts")}>My drafts</a>
+    </Link>
+    <Link href="/create">
+      <a data-active={isActive("/create")}>+ Create</a>
+    </Link>
+    <style jsx>{`
     .bold {
       font-weight: bold;
     }
@@ -53,7 +56,7 @@ const Header: React.FC = () => {
       display: inline-block;
     }
 
-    .left a[data-active="true"] {
+    .right a[data-active="true"] {
       color: gray;
     }
 
@@ -61,7 +64,7 @@ const Header: React.FC = () => {
       margin-left: 1rem;
     }
   `}</style>
-</div>)
+  </div>)
 
 
   return (
